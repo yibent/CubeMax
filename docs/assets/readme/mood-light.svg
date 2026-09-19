@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630" role="img" aria-labelledby="title desc">
+<title id="title">心情灯：从对话回传到设备输出</title>
+<desc id="desc">简化自仓库的心情灯模板。设置心情助手角色，等待心情回传；成功时运行 Lua 心情灯效模块并将颜色与亮度送往 Home Assistant 彩灯，回传超时或错误时结束。</desc>
+<defs>
+  <linearGradient id="cover" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#171329"/><stop offset="1" stop-color="#34234F"/></linearGradient>
+  <pattern id="dots" width="24" height="24" patternUnits="userSpaceOnUse"><circle cx="2" cy="2" r="1" fill="#B9AAD8" opacity=".2"/></pattern>
+  <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M 0 1 L 9 5 L 0 9 Z" fill="#147D76"/></marker>
+  <marker id="arrow-purple" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M 0 1 L 9 5 L 0 9 Z" fill="#7155D9"/></marker>
+  <marker id="arrow-muted" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M 0 1 L 9 5 L 0 9 Z" fill="#7F8195"/></marker>
+</defs>
+<g font-family="Noto Sans CJK SC, Microsoft YaHei, PingFang SC, Arial, sans-serif">
+<rect x="0" y="0" width="1200" height="630" rx="24" fill="#F8F7FC"/>
+<text x="52" y="49" font-size="17" font-weight="700" fill="#7155D9">03 / BUILD A MOOD LIGHT</text>
+<text x="52" y="98" font-size="36" font-weight="700" fill="#24243B">让一个小函数，接上真实的世界</text>
+<text x="52" y="137" font-size="21" font-weight="400" fill="#65657D">心情灯模板简图 · 紫色是可替换的 Lua 模块，绿色连线由学生理解与组织。</text>
+<path d="M 295 288 H 335" fill="none" stroke="#147D76" stroke-width="3" stroke-linejoin="round" stroke-linecap="round" marker-end="url(#arrow)"/>
+<path d="M 575 288 H 615" fill="none" stroke="#147D76" stroke-width="3" stroke-linejoin="round" stroke-linecap="round" marker-end="url(#arrow)"/>
+<path d="M 855 288 H 895" fill="none" stroke="#147D76" stroke-width="3" stroke-linejoin="round" stroke-linecap="round" marker-end="url(#arrow)"/>
+<path d="M 455 379 V 491 H 986" fill="none" stroke="#7F8195" stroke-width="3" stroke-linejoin="round" stroke-linecap="round" marker-end="url(#arrow-muted)" stroke-dasharray="7 7"/>
+<path d="M 1015 379 V 451" fill="none" stroke="#147D76" stroke-width="3" stroke-linejoin="round" stroke-linecap="round" marker-end="url(#arrow)"/>
+<rect x="55" y="199" width="240" height="180" rx="18" fill="#FFFFFF" stroke="#DDDCEA" stroke-width="1"/>
+<text x="74" y="232" font-size="17" font-weight="700" fill="#147D76">01</text>
+<text x="74" y="273" font-size="26" font-weight="700" fill="#24243B">设置对话角色</text>
+<text x="74" y="312" font-size="20" font-weight="400" fill="#65657D">CubeCat 心情助手</text>
+<text x="74" y="348" font-size="19" font-weight="400" fill="#65657D">请学生描述心情</text>
+<rect x="335" y="199" width="240" height="180" rx="18" fill="#FFFFFF" stroke="#DDDCEA" stroke-width="1"/>
+<text x="354" y="232" font-size="17" font-weight="700" fill="#147D76">02</text>
+<text x="354" y="273" font-size="26" font-weight="700" fill="#24243B">等待心情回传</text>
+<text x="354" y="312" font-size="20" font-weight="400" fill="#65657D">收到结果后继续</text>
+<text x="354" y="348" font-size="19" font-weight="400" fill="#65657D">输出 mood</text>
+<rect x="615" y="199" width="240" height="180" rx="18" fill="#F0EAFE" stroke="#7155D9" stroke-width="2"/>
+<text x="634" y="232" font-size="17" font-weight="700" fill="#7155D9">03</text>
+<text x="634" y="273" font-size="26" font-weight="700" fill="#24243B">心情灯效</text>
+<text x="634" y="312" font-size="20" font-weight="400" fill="#7155D9">Lua 模块</text>
+<text x="634" y="348" font-size="19" font-weight="400" fill="#65657D">绘制颜色，返回参数</text>
+<rect x="895" y="199" width="240" height="180" rx="18" fill="#FFFFFF" stroke="#DDDCEA" stroke-width="1"/>
+<text x="914" y="232" font-size="17" font-weight="700" fill="#147D76">04</text>
+<text x="914" y="273" font-size="26" font-weight="700" fill="#24243B">控制彩灯</text>
+<text x="914" y="312" font-size="20" font-weight="400" fill="#65657D">Home Assistant</text>
+<text x="914" y="348" font-size="19" font-weight="400" fill="#65657D">绑定颜色与亮度</text>
+<rect x="991" y="454" width="145" height="70" rx="16" fill="#E7F2ED" stroke="#BEDCD0" stroke-width="1"/>
+<text x="1064" y="499" font-size="25" font-weight="700" fill="#147D76" text-anchor="middle">结束</text>
+<text x="517" y="482" font-size="20" font-weight="400" fill="#65657D">超时 / 错误</text>
+<rect x="64" y="456" width="305" height="34" rx="17" fill="#EEEDF5"/>
+<text x="216.5" y="480" font-size="18" font-weight="600" fill="#65657D" text-anchor="middle">设计问题：等不到结果怎么办？</text>
+<rect x="55" y="551" width="1080" height="46" rx="12" fill="#ECE8F8"/>
+<text x="78" y="581" font-size="20" font-weight="400" fill="#24243B">接口连接：回传的 mood → Lua 输入；Lua 的 color / brightness → 彩灯输入</text>
+</g>
+</svg>

@@ -1,0 +1,75 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="710" viewBox="0 0 1200 710" role="img" aria-labelledby="title desc">
+<title id="title">一堂课，三个协作空间</title>
+<desc id="desc">教师组织班级与资源，学生创作和提交作品，教室大屏展示活动结果。设备会话在课前保存原配置，课中挂载工具并下发角色，结束时恢复与解锁。</desc>
+<defs>
+  <linearGradient id="cover" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#171329"/><stop offset="1" stop-color="#34234F"/></linearGradient>
+  <pattern id="dots" width="24" height="24" patternUnits="userSpaceOnUse"><circle cx="2" cy="2" r="1" fill="#B9AAD8" opacity=".2"/></pattern>
+  <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M 0 1 L 9 5 L 0 9 Z" fill="#147D76"/></marker>
+  <marker id="arrow-purple" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M 0 1 L 9 5 L 0 9 Z" fill="#7155D9"/></marker>
+  <marker id="arrow-muted" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M 0 1 L 9 5 L 0 9 Z" fill="#7F8195"/></marker>
+</defs>
+<g font-family="Noto Sans CJK SC, Microsoft YaHei, PingFang SC, Arial, sans-serif">
+<rect x="0" y="0" width="1200" height="710" rx="24" fill="#F8F7FC"/>
+<text x="52" y="49" font-size="17" font-weight="700" fill="#7155D9">01 / CLASSROOM</text>
+<text x="52" y="98" font-size="36" font-weight="700" fill="#24243B">一堂课，三个协作空间</text>
+<text x="52" y="137" font-size="21" font-weight="400" fill="#65657D">围绕教师组织、学生创作与全班展示，安排每一次课堂实践。</text>
+<rect x="52" y="180" width="352" height="272" rx="20" fill="#FFFFFF" stroke="#DDDCEA" stroke-width="1"/>
+<rect x="74" y="201" width="54" height="54" rx="14" fill="#F0EAFE"/>
+<circle cx="101" cy="218" r="7" fill="#7155D9"/>
+<path d="M 87 241 V 235 Q 101 223 115 235 V 241" fill="none" stroke="#7155D9" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+<text x="144" y="225" font-size="26" font-weight="700" fill="#24243B">教师讲台</text>
+<text x="144" y="252" font-size="19" font-weight="400" fill="#7155D9">组织这节课</text>
+<circle cx="84" cy="306" r="4" fill="#7155D9"/>
+<text x="101" y="313" font-size="22" font-weight="400" fill="#24243B">成员与设备分配</text>
+<circle cx="84" cy="351" r="4" fill="#7155D9"/>
+<text x="101" y="358" font-size="22" font-weight="400" fill="#24243B">场景、应用与额度</text>
+<circle cx="84" cy="396" r="4" fill="#7155D9"/>
+<text x="101" y="403" font-size="22" font-weight="400" fill="#24243B">任务发布与作品批阅</text>
+<rect x="424" y="180" width="352" height="272" rx="20" fill="#FFFFFF" stroke="#DDDCEA" stroke-width="1"/>
+<rect x="446" y="201" width="54" height="54" rx="14" fill="#E8F5EF"/>
+<path d="M 458 220 L 451 228 L 458 236 M 486 220 L 493 228 L 486 236 M 478 216 L 468 240" fill="none" stroke="#147D76" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+<text x="516" y="225" font-size="26" font-weight="700" fill="#24243B">学生工作区</text>
+<text x="516" y="252" font-size="19" font-weight="400" fill="#147D76">做出自己的作品</text>
+<circle cx="456" cy="306" r="4" fill="#147D76"/>
+<text x="473" y="313" font-size="22" font-weight="400" fill="#24243B">查看任务与要求</text>
+<circle cx="456" cy="351" r="4" fill="#147D76"/>
+<text x="473" y="358" font-size="22" font-weight="400" fill="#24243B">创建模块、连接流程</text>
+<circle cx="456" cy="396" r="4" fill="#147D76"/>
+<text x="473" y="403" font-size="22" font-weight="400" fill="#24243B">运行验证与成果提交</text>
+<rect x="796" y="180" width="352" height="272" rx="20" fill="#FFFFFF" stroke="#DDDCEA" stroke-width="1"/>
+<rect x="818" y="201" width="54" height="54" rx="14" fill="#FFF3DF"/>
+<rect x="827" y="212" width="36" height="25" rx="4" fill="none" stroke="#A86412" stroke-width="2"/>
+<path d="M 845 237 V 245 M 835 245 H 855" fill="none" stroke="#A86412" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<text x="888" y="225" font-size="26" font-weight="700" fill="#24243B">教室大屏</text>
+<text x="888" y="252" font-size="19" font-weight="400" fill="#A86412">让全班看见进展</text>
+<circle cx="828" cy="306" r="4" fill="#A86412"/>
+<text x="845" y="313" font-size="22" font-weight="400" fill="#24243B">独立全屏展示</text>
+<circle cx="828" cy="351" r="4" fill="#A86412"/>
+<text x="845" y="358" font-size="22" font-weight="400" fill="#24243B">课堂应用与排行榜</text>
+<circle cx="828" cy="396" r="4" fill="#A86412"/>
+<text x="845" y="403" font-size="22" font-weight="400" fill="#24243B">配合演示与集体复盘</text>
+<text x="54" y="503" font-size="25" font-weight="700" fill="#24243B">设备会话 · 接管与归还</text>
+<rect x="875" y="476" width="270" height="34" rx="17" fill="#EEE9FC"/>
+<text x="1010.0" y="500" font-size="18" font-weight="600" fill="#7155D9" text-anchor="middle">ClassroomKit</text>
+<rect x="54" y="527" width="245" height="98" rx="14" fill="#FFFFFF" stroke="#DDDCEA" stroke-width="1"/>
+<text x="70" y="556" font-size="17" font-weight="700" fill="#7155D9">01</text>
+<text x="103" y="560" font-size="22" font-weight="700" fill="#24243B">保存原配置</text>
+<text x="70" y="600" font-size="19" font-weight="400" fill="#65657D">先记录，再改动</text>
+<path d="M 306 575 H 328" fill="none" stroke="#147D76" stroke-width="2" stroke-linejoin="round" stroke-linecap="round" marker-end="url(#arrow)"/>
+<rect x="336" y="527" width="245" height="98" rx="14" fill="#FFFFFF" stroke="#DDDCEA" stroke-width="1"/>
+<text x="352" y="556" font-size="17" font-weight="700" fill="#7155D9">02</text>
+<text x="385" y="560" font-size="22" font-weight="700" fill="#24243B">进入课堂</text>
+<text x="352" y="600" font-size="19" font-weight="400" fill="#65657D">挂工具、下发角色</text>
+<path d="M 588 575 H 610" fill="none" stroke="#147D76" stroke-width="2" stroke-linejoin="round" stroke-linecap="round" marker-end="url(#arrow)"/>
+<rect x="618" y="527" width="245" height="98" rx="14" fill="#FFFFFF" stroke="#DDDCEA" stroke-width="1"/>
+<text x="634" y="556" font-size="17" font-weight="700" fill="#7155D9">03</text>
+<text x="667" y="560" font-size="22" font-weight="700" fill="#24243B">学生实践</text>
+<text x="634" y="600" font-size="19" font-weight="400" fill="#65657D">按需锁定设备修改</text>
+<path d="M 870 575 H 892" fill="none" stroke="#147D76" stroke-width="2" stroke-linejoin="round" stroke-linecap="round" marker-end="url(#arrow)"/>
+<rect x="900" y="527" width="245" height="98" rx="14" fill="#FFFFFF" stroke="#DDDCEA" stroke-width="1"/>
+<text x="916" y="556" font-size="17" font-weight="700" fill="#7155D9">04</text>
+<text x="949" y="560" font-size="22" font-weight="700" fill="#24243B">结束与归还</text>
+<text x="916" y="600" font-size="19" font-weight="400" fill="#65657D">恢复配置、解锁</text>
+<text x="54" y="673" font-size="21" font-weight="400" fill="#65657D">课前准备好资源，课中保留创作空间，课后留下作品与反馈。</text>
+</g>
+</svg>
