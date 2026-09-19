@@ -1,3 +1,6 @@
+// Stack capture is unrelated to credential handling; isolate the ESM-only helper in Jest.
+jest.mock("callsites", () => ({ __esModule: true, default: () => [] }));
+
 import { XiaozhiCredentialCryptoService } from "./xiaozhi-credential-crypto.service";
 
 describe("XiaozhiCredentialCryptoService", () => {

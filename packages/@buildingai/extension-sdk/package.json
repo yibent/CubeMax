@@ -14,6 +14,11 @@
             "require": "./dist/index.js",
             "import": "./dist/index.js",
             "types": "./dist/index.d.ts"
+        },
+        "./tsup": {
+            "types": "./dist/tsup.d.ts",
+            "require": "./dist/tsup.js",
+            "import": "./dist/tsup.js"
         }
     },
     "scripts": {
