@@ -1,7 +1,7 @@
 {
     "name": "buildingai-monorepo",
     "title": "BuildingAI",
-    "version": "26.5.14",
+    "version": "26.5.15",
     "description": "BuildingAI Monorepo",
     "author": {
         "name": "BuildingAI Teams",
@@ -47,6 +47,7 @@
         "lint:fix": "turbo run lint:fix",
         "format": "prettier --write \"**/*.{ts,tsx,md}\"",
         "typecheck": "turbo run check-types",
+        "test:upstream": "node --test scripts/tests/upstream-sync.test.cjs",
         "clean": "rimraf ./.turbo && turbo run clean",
         "sync-env": "node scripts/sync-env.mjs",
         "skills": "node scripts/sync-skills.mjs",
@@ -123,6 +124,7 @@
         "class-transformer": "catalog:api",
         "class-validator": "catalog:api",
         "cli-table3": "catalog:",
+        "cos-nodejs-sdk-v5": "catalog:",
         "cpy-cli": "^6.0.0",
         "cron": "4.3.5",
         "dotenv": "catalog:",
