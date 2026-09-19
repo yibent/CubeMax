@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="820" viewBox="0 0 1200 820" role="img" aria-labelledby="title desc">
+<title id="title">VibeCoding：函数由 AI 协助实现，完整逻辑由学生组合</title>
+<desc id="desc">学生定义模块的输入输出，AI 生成 Lua 代码、Schema 和测试参数。学生检查模块后连接数据与控制逻辑，运行验证，再根据反馈修改模块或流程。</desc>
+<defs>
+  <linearGradient id="cover" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#171329"/><stop offset="1" stop-color="#34234F"/></linearGradient>
+  <pattern id="dots" width="24" height="24" patternUnits="userSpaceOnUse"><circle cx="2" cy="2" r="1" fill="#B9AAD8" opacity=".2"/></pattern>
+  <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M 0 1 L 9 5 L 0 9 Z" fill="#147D76"/></marker>
+  <marker id="arrow-purple" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M 0 1 L 9 5 L 0 9 Z" fill="#7155D9"/></marker>
+  <marker id="arrow-muted" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M 0 1 L 9 5 L 0 9 Z" fill="#7F8195"/></marker>
+</defs>
+<g font-family="Noto Sans CJK SC, Microsoft YaHei, PingFang SC, Arial, sans-serif">
+<rect x="0" y="0" width="1200" height="820" rx="24" fill="#F8F7FC"/>
+<text x="52" y="49" font-size="17" font-weight="700" fill="#7155D9">02 / VIBECODING</text>
+<text x="52" y="98" font-size="36" font-weight="700" fill="#24243B">AI 写好一块，学生搭出整个作品</text>
+<text x="52" y="137" font-size="21" font-weight="400" fill="#65657D">协作的单位是函数与代码块；学习的主线是拆解、组合、验证与解释。</text>
+<rect x="52" y="181" width="1096" height="195" rx="20" fill="#EAF6F0"/>
+<rect x="74" y="201" width="100" height="34" rx="17" fill="#CCEBDD"/>
+<text x="124.0" y="225" font-size="19" font-weight="600" fill="#147D76" text-anchor="middle">学生</text>
+<text x="193" y="229" font-size="27" font-weight="700" fill="#24243B">01  定义问题与接口</text>
+<text x="75" y="286" font-size="25" font-weight="600" fill="#24243B">这个模块只做什么？</text>
+<text x="75" y="328" font-size="21" font-weight="400" fill="#65657D">说明需求，确定输入与预期输出。</text>
+<rect x="636" y="242" width="484" height="103" rx="14" fill="#FFFFFF" stroke="#C3DFD2" stroke-width="1"/>
+<text x="660" y="280" font-size="23" font-weight="600" fill="#147D76">输入  mood: string</text>
+<text x="660" y="320" font-size="20" font-weight="400" fill="#24243B">输出  color: string · brightness: number</text>
+<path d="M 294 376 V 402" fill="none" stroke="#147D76" stroke-width="3" stroke-linejoin="round" stroke-linecap="round" marker-end="url(#arrow)"/>
+<rect x="52" y="409" width="484" height="192" rx="20" fill="#F0EAFE"/>
+<rect x="74" y="429" width="100" height="34" rx="17" fill="#DED2FC"/>
+<text x="124.0" y="453" font-size="19" font-weight="600" fill="#7155D9" text-anchor="middle">AI</text>
+<text x="193" y="457" font-size="26" font-weight="700" fill="#24243B">02  实现一个模块</text>
+<text x="76" y="510" font-size="24" font-weight="600" fill="#24243B">Lua 代码 + 输入输出定义</text>
+<text x="76" y="553" font-size="20" font-weight="400" fill="#65657D">生成测试参数，按反馈修改局部代码。</text>
+<path d="M 544 505 H 628" fill="none" stroke="#7155D9" stroke-width="3" stroke-linejoin="round" stroke-linecap="round" marker-end="url(#arrow-purple)"/>
+<rect x="644" y="409" width="504" height="192" rx="20" fill="#EAF6F0"/>
+<rect x="666" y="429" width="100" height="34" rx="17" fill="#CCEBDD"/>
+<text x="716.0" y="453" font-size="19" font-weight="600" fill="#147D76" text-anchor="middle">学生</text>
+<text x="785" y="457" font-size="26" font-weight="700" fill="#24243B">03  检查并组合</text>
+<text x="668" y="510" font-size="24" font-weight="600" fill="#24243B">检查模块，连入主流程</text>
+<text x="668" y="553" font-size="20" font-weight="400" fill="#65657D">绑定数据，设计顺序、分支与等待。</text>
+<path d="M 896 601 V 633" fill="none" stroke="#147D76" stroke-width="3" stroke-linejoin="round" stroke-linecap="round" marker-end="url(#arrow)"/>
+<rect x="52" y="639" width="1096" height="107" rx="18" fill="#FFFFFF" stroke="#DDDCEA" stroke-width="1"/>
+<rect x="74" y="658" width="100" height="34" rx="17" fill="#CCEBDD"/>
+<text x="124.0" y="682" font-size="19" font-weight="600" fill="#147D76" text-anchor="middle">学生</text>
+<text x="193" y="686" font-size="27" font-weight="700" fill="#24243B">04  运行、验证与解释</text>
+<text x="193" y="724" font-size="21" font-weight="400" fill="#65657D">换一组输入 → 看日志与结果 → 找到问题 → 改进模块或流程</text>
+<path d="M 52 692 H 26 V 277 H 44" fill="none" stroke="#147D76" stroke-width="2" stroke-linejoin="round" stroke-linecap="round" marker-end="url(#arrow)" stroke-dasharray="6 7"/>
+<text x="55" y="787" font-size="21" font-weight="600" fill="#147D76">AI 协助局部实现；学生始终掌握完整作品的数据关系与控制逻辑。</text>
+</g>
+</svg>
